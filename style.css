@@ -19,13 +19,36 @@
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
     /* tamanho da fonte padrão */
-    font-size: 50%; /* controle das medidas rem */
+    font-size: 60%; /* controle das medidas rem */
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+}
 body{
-    background-color: var(--color-primary-darker);
-    font-size: 100%;
+    
+    background: var( --color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h1{
-    font-size: 100%;
+body, input, button,textarea{
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: var(--color-text-base);
 }
+#container {
+    width: 90vw;
+    max-width: 700px;
+   
+}
+
+
+
+_
